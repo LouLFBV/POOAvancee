@@ -1,0 +1,14 @@
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\SystemeDeQuete.exe
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\SystemeDeQuete.deps.json
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\SystemeDeQuete.runtimeconfig.json
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\SystemeDeQuete.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\SystemeDeQuete.pdb
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.GeneratedMSBuildEditorConfig.editorconfig
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.AssemblyInfoInputs.cache
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.AssemblyInfo.cs
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.csproj.CoreCompileInputs.cache
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\refint\SystemeDeQuete.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.pdb
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.genruntimeconfig.cache
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\ref\SystemeDeQuete.dll
