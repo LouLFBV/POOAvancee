@@ -12,3 +12,9 @@ C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\refint\SystemeDeQuete.dl
 C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.pdb
 C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.genruntimeconfig.cache
 C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\ref\SystemeDeQuete.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.csproj.AssemblyReference.cache
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeDeQuete.sourcelink.json
+C:\ecole\B2\POOAvancée\SystemeDeQuete\obj\Debug\net8.0\SystemeD.9B66C6BE.Up2Date
