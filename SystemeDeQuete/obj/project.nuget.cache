@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Qz1/nTIWGq0=",
+  "dgSpecHash": "uJow5/uE+R4=",
   "success": true,
-  "projectFilePath": "C:\\ecole\\B2\\POOAvancée\\SystemeDeQuete\\SystemeDeQuete.csproj",
+  "projectFilePath": "C:\\Users\\hugoc\\Ynov\\Year2\\POO\\POOAvancee\\SystemeDeQuete\\SystemeDeQuete.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\loulo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
-    "C:\\Users\\loulo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
-    "C:\\Users\\loulo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
+    "C:\\Users\\hugoc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\hugoc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\hugoc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
   ],
   "logs": []
 }

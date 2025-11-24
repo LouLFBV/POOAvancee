@@ -195,24 +195,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\loulo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hugoc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ecole\\B2\\POOAvancée\\SystemeDeQuete\\SystemeDeQuete.csproj",
+      "projectUniqueName": "C:\\Users\\hugoc\\Ynov\\Year2\\POO\\POOAvancee\\SystemeDeQuete\\SystemeDeQuete.csproj",
       "projectName": "SystemeDeQuete",
-      "projectPath": "C:\\ecole\\B2\\POOAvancée\\SystemeDeQuete\\SystemeDeQuete.csproj",
-      "packagesPath": "C:\\Users\\loulo\\.nuget\\packages\\",
-      "outputPath": "C:\\ecole\\B2\\POOAvancée\\SystemeDeQuete\\obj\\",
+      "projectPath": "C:\\Users\\hugoc\\Ynov\\Year2\\POO\\POOAvancee\\SystemeDeQuete\\SystemeDeQuete.csproj",
+      "packagesPath": "C:\\Users\\hugoc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hugoc\\Ynov\\Year2\\POO\\POOAvancee\\SystemeDeQuete\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\loulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hugoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -220,6 +215,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -237,8 +233,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -265,7 +260,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
