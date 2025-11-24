@@ -8,13 +8,27 @@ namespace SystemeDeQuete
 {
     class Collecte : Quete
     {
-        public void Test()
+        private string _objetsACollecter;
+
+        public Collecte(
+            string titre,
+            string description,
+            Importance importance,
+            Evenement evenement,
+            string objetsACollecter
+        ) : base(titre, description, importance, evenement)
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            _objetsACollecter = objetsACollecter;
+        }
+
+        public string AfficherObjetsACollecter()
+        {
+            return _objetsACollecter;
+        }
+
+        public void ModifierObjetsACollecter(string nouveauxObjets)
+        {
+            _objetsACollecter = nouveauxObjets;
         }
     }
 }

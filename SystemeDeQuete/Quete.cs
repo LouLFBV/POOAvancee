@@ -8,6 +8,19 @@ namespace SystemeDeQuete
 {
     class Quete
     {
+        private string _titre;
+        private string _description;
+        private Importance _importance;
+        private Evenement _evenement;
+
+
+        public Quete(string titre, string description, Importance importance, Evenement evenement)
+        {
+            _titre = titre;
+            _description = description;
+            _importance = importance;
+            _evenement = evenement;
+        }
         public void Test()
         {
             Log.Info("Démarrage OK");
@@ -16,5 +29,11 @@ namespace SystemeDeQuete
             Console.WriteLine("Entrer un chiffre !");
             var chiffre = Console.ReadLine();
         }
+    }
+    public enum Importance
+    {
+        Principale,
+        Secondaire,
+        SousQuete
     }
 }

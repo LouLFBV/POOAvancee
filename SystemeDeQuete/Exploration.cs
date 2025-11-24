@@ -6,18 +6,29 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Exploration : Quete, IPerteDOr
+    class Exploration : Quete
     {
-        public void VolDOr(int montant)
+        private string _lieuATrouver;
+
+        public Exploration(
+            string titre,
+            string description,
+            Importance importance,
+            Evenement evenement,
+            string lieuATrouver
+        ) : base(titre, description, importance, evenement)
         {
+            _lieuATrouver = lieuATrouver;
         }
-        public void Test()
+
+        public string AfficherLieuATrouver()
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            return _lieuATrouver;
+        }
+
+        public void ModifierLieuATrouver(string nouveauLieu)
+        {
+            _lieuATrouver = nouveauLieu;
         }
     }
 }
