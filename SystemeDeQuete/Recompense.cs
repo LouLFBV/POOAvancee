@@ -4,17 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SystemeDeQuete
+public class Recompense : ITypeRecompense
 {
-    class Recompense
+    private int _quantite;
+
+    public Recompense(int quantite)
     {
-        public void Test()
-        {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
-        }
+        _quantite = quantite;
+    }
+
+    public int AfficherQuantite()
+    {
+        return _quantite;
+    }
+
+    public void ModifierQuantite(int quantite)
+    {
+        _quantite = quantite;
+    }
+
+
+    public void AppliquerRecompense()
+    {
+
     }
 }
