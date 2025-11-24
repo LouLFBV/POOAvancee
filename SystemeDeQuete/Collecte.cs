@@ -8,6 +8,13 @@ namespace SystemeDeQuete
 {
     class Collecte : Quete
     {
+        public Collecte(string titre, string description, Importance importance, Evenement evenement) : base(titre, description, importance, evenement)
+        {
+            _titre = titre;
+            _description = description;
+            _importance = importance;
+            _evenement = evenement;
+        }
         public void Test()
         {
             Log.Info("Démarrage OK");

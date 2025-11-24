@@ -8,13 +8,72 @@ namespace SystemeDeQuete
 {
     class ManageurDeJeu
     {
-        public void Test()
+        private Personnage _personnage;
+        private List<Quete> _quetes;
+
+
+        public ManageurDeJeu(List<Quete> quetes)
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            _personnage = new Personnage();
+            _quetes = quetes;
+        }
+
+        #region Méthodes Afficher
+        public void AfficherMenuDeChoix()
+        {
+            Console.WriteLine("1. Afficher les quêtes 📋");
+            Console.WriteLine("2. Afficher les récompenses 🎁");
+            Console.WriteLine("3. Afficher l'XP et l'or du personnage 🪙🧠");
+            Console.WriteLine("4. Quitter ➡️🚪");
+        }
+
+        public void AfficherQuetes()
+        {
+            Console.WriteLine("Liste des quêtes disponibles :");
+            foreach (var quete in _quetes)
+            {
+                Console.WriteLine($"- {quete}");
+            }
+        }
+
+        public void AfficherStatsDuPersonnage()
+        {
+            _personnage.AfficherXp();
+            _personnage.AfficherOr();
+        }
+
+        #endregion
+
+        public void GererChoixUtilisateur()
+        {
+            while (true)
+            {
+                var choix = Console.ReadLine();
+                switch (choix)
+                {
+                    case "1":
+                        AfficherQuetes();
+                        break;
+                    case "2":
+                        _personnage.AfficherListeDeRecompense();
+                        break;
+                    case "3":
+                        AfficherStatsDuPersonnage();
+                        break;
+                    case "4":
+                        QuitterJeu();
+                        break;
+                    default:
+                        Console.WriteLine("Choix invalide, veuillez réessayer.");
+                        break;
+                }
+                AfficherMenuDeChoix();
+            }
+        }
+        public void QuitterJeu()
+        {
+            Console.WriteLine("Merci d'avoir joué !");
+            Environment.Exit(0);
         }
     }
 }

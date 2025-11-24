@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SystemeDeQuete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c39b9ca2fcf4d717f3b763c5ffcd93ce4956a8c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20f245ac5e0e166a76377edd1e4673ba7fb5e549")]
 [assembly: System.Reflection.AssemblyProductAttribute("SystemeDeQuete")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SystemeDeQuete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

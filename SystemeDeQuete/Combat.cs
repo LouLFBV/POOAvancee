@@ -8,6 +8,13 @@ namespace SystemeDeQuete
 {
     class Combat : Quete, IPerteDOr
     {
+        public Combat(string titre, string description, Importance importance, Evenement evenement) : base(titre, description, importance, evenement)
+        {
+            _titre = titre;
+            _description = description;
+            _importance = importance;
+            _evenement = evenement;
+        }
         public void VolDOr(int montant)
         {
         }

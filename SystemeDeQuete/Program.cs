@@ -28,11 +28,16 @@
     {
         static void Main()
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Recompense recompense = new Recompense();
-            recompense.Test();
+            //Log.Info("Démarrage OK");
+            //Log.Warn("Attention !");
+            //Log.Error("Une erreur est survenue");
+            //Recompense recompense = new Recompense();
+            //recompense.Test();
+            ManageurDeJeu manageur = new ManageurDeJeu(new List<Quete>());
+
+            Console.WriteLine("## GESTIONNAIRE DE QUETE ##");
+            manageur.AfficherMenuDeChoix();
+            manageur.GererChoixUtilisateur();
         }
     }
 
