@@ -1,4 +1,6 @@
-﻿namespace SystemeDeQuete
+﻿
+
+namespace SystemeDeQuete
 {
     static class Log
     {
@@ -28,6 +30,7 @@
     {
         static void Main()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             //Log.Info("Démarrage OK");
             //Log.Warn("Attention !");
             //Log.Error("Une erreur est survenue");
