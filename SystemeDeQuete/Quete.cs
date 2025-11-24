@@ -8,10 +8,17 @@ namespace SystemeDeQuete
 {
     class Quete
     {
+<<<<<<< HEAD
         protected string _titre;
         protected string _description;
         protected Importance _importance;
         protected Evenement _evenement;
+=======
+        private string _titre;
+        private string _description;
+        private Importance _importance;
+        private Evenement _evenement;
+>>>>>>> origin/yarkin
 
 
         public Quete(string titre, string description, Importance importance, Evenement evenement)

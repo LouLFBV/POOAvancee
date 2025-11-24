@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +35,8 @@
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,32 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Exploration.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Exploration.cs",
               "RelativeDocumentMoniker": "Exploration.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Exploration.cs",
               "RelativeToolTip": "Exploration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T18:46:57.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Collecte.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Collecte.cs",
               "RelativeDocumentMoniker": "Collecte.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Collecte.cs",
               "RelativeToolTip": "Collecte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:46:39.577Z"
+              "WhenOpened": "2025-11-23T18:46:39.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "IPerteDOr.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\IPerteDOr.cs",
               "RelativeDocumentMoniker": "IPerteDOr.cs",
@@ -95,23 +96,25 @@
               "RelativeToolTip": "IPerteDOr.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:46:26.365Z"
+              "WhenOpened": "2025-11-23T18:46:26.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Combat.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Combat.cs",
               "RelativeDocumentMoniker": "Combat.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Combat.cs",
               "RelativeToolTip": "Combat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:42.682Z"
+              "WhenOpened": "2025-11-23T18:45:42.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Evenement.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Evenement.cs",
               "RelativeDocumentMoniker": "Evenement.cs",
@@ -119,7 +122,8 @@
               "RelativeToolTip": "Evenement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:24.177Z"
+              "WhenOpened": "2025-11-23T18:45:24.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Quete.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Quete.cs",
               "RelativeDocumentMoniker": "Quete.cs",
@@ -147,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Personnage.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Personnage.cs",
               "RelativeDocumentMoniker": "Personnage.cs",
@@ -159,20 +163,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ManageurDeJeu.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ManageurDeJeu.cs",
               "RelativeDocumentMoniker": "ManageurDeJeu.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ManageurDeJeu.cs",
               "RelativeToolTip": "ManageurDeJeu.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T18:44:15.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -180,8 +184,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T09:01:24.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T09:01:24.029Z"
             }
           ]
         }

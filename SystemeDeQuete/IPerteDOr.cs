@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    interface IPerteDOr
+    public interface IPerteDOr
     {
         void VolDOr(int montant);
     }
