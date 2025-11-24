@@ -32,7 +32,7 @@ namespace SystemeDeQuete
             Console.WriteLine("Liste des quêtes disponibles :");
             foreach (var quete in _quetes)
             {
-                Console.WriteLine($"- {quete}");
+                Console.WriteLine($"- titre : {quete.AfficherTitre()}, description : {quete.AfficherDescription()}, importance : {quete.AfficherImportance()}, état : {quete.AfficherEvenement().etat} ");
             }
         }
 
