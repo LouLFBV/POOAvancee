@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Exploration : Quete
+    class Exploration : Quete, IPerteDOr
     {
         private string _lieuATrouver;
 
@@ -29,6 +29,11 @@ namespace SystemeDeQuete
         public void ModifierLieuATrouver(string nouveauLieu)
         {
             _lieuATrouver = nouveauLieu;
+        }
+
+        public void VolDOr(int montant)
+        {
+            Console.WriteLine($"Vous avez perdu {montant} pièces d'or !");
         }
     }
 }

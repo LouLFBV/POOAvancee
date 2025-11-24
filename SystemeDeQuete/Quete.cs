@@ -6,35 +6,54 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Quete
+    public abstract class Quete
     {
-<<<<<<< HEAD
-        protected string _titre;
-        protected string _description;
-        protected Importance _importance;
-        protected Evenement _evenement;
-=======
         private string _titre;
         private string _description;
         private Importance _importance;
         private Evenement _evenement;
->>>>>>> origin/yarkin
 
-
-        public Quete(string titre, string description, Importance importance, Evenement evenement)
+        protected Quete(string titre, string description, Importance importance, Evenement evenement)
         {
             _titre = titre;
             _description = description;
             _importance = importance;
             _evenement = evenement;
         }
-        public void Test()
+
+        public string AfficherTitre()
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            return _titre;
+        }
+
+        public string AfficherDescription()
+        {
+            return _description;
+        }
+
+        public Importance AfficherImportance()
+        {
+            return _importance;
+        }
+
+        public Evenement AfficherEvenement()
+        {
+            return _evenement;
+        }
+
+        public void ModifierTitre(string title)
+        {
+            _titre = title;
+        }
+
+        public void ModifierDescription(string descrip)
+        {
+            _description = descrip;
+        }
+
+        public void ModifierImportance(Importance important)
+        {
+            _importance = important;
         }
     }
     public enum Importance

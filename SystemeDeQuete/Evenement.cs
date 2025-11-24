@@ -6,15 +6,34 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Evenement
+    public class Evenement
     {
-        public void Test()
+        private bool _etat;
+        private List<Recompense> _recompense;
+        public Evenement(bool etat, List<Recompense> recompense)
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            _recompense = recompense;
+            _etat = etat;
+        }
+
+        public bool AfficherEtat()
+        {
+            return _etat;
+        }
+
+        public List<Recompense> AfficherRecompense()
+        {
+            return _recompense;
+        }
+
+        public void ModifierEtat(bool state)
+        {
+            _etat = state;
+        }
+
+        public void ModifierRecompense(List<Recompense> gifted)
+        {
+            _recompense = gifted;
         }
     }
 }
