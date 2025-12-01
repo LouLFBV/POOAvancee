@@ -2,7 +2,7 @@ namespace SystemeDeQuete
 {
     public class Xp : Recompense
     {
-        public Xp(int quantite) : base(quantite) { }
+        public Xp(TypeRecompense nom, int quantite) : base(nom, quantite) { }
 
         public override void AppliquerRecompense()
         {

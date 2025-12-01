@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 public abstract class Recompense : ITypeRecompense
 {
-    protected string _nom;
+    protected TypeRecompense _nom;
     protected int _quantite;
 
-    public Recompense(string nom, int quantite)
+    public Recompense(TypeRecompense nom, int quantite)
     {
         _nom = nom;
         _quantite = quantite;
@@ -19,7 +19,7 @@ public abstract class Recompense : ITypeRecompense
     {
         Console.WriteLine($"- {_nom}, Quantité: {_quantite}");
     }
-    public string ObtenirNom()
+    public TypeRecompense ObtenirNom()
     {
         return _nom;
     }
@@ -35,4 +35,12 @@ public abstract class Recompense : ITypeRecompense
 
 
     public abstract void AppliquerRecompense();
+}
+
+public enum TypeRecompense
+{
+    Banane,
+    Pomme,
+    Or,
+    Xp
 }

@@ -38,22 +38,39 @@ namespace SystemeDeQuete
             //recompense.Test();
 
 
-            Banane banane = new Banane(5);
-            Pomme pomme = new Pomme(3);
-            Or or = new Or(100);
-            Xp xp = new Xp(50);
+            Banane banane = new Banane(TypeRecompense.Banane, 5);
+            Pomme pomme = new Pomme(TypeRecompense.Pomme, 3);
+            Or or = new Or(TypeRecompense.Or, 100);
+            Xp xp = new Xp(TypeRecompense.Xp, 50);
 
-            List<Recompense> recompenses = new List<Recompense>();
-            recompenses.Add(banane);
-            recompenses.Add(pomme);
-            recompenses.Add(or);
-            recompenses.Add(xp);
-            Evenement evenement1 = new Evenement(recompenses);
+            // EVENEMENT 1 
+            List<Recompense> recompenses1 = new List<Recompense>();
+            recompenses1.Add(banane);
+            recompenses1.Add(pomme);
+            recompenses1.Add(or);
+            recompenses1.Add(xp);
+            Evenement evenement1 = new Evenement(recompenses1);
+
+            // EVENEMENT 2
+            List<Recompense> recompenses2 = new List<Recompense>();
+            recompenses2.Add(banane);
+            recompenses2.Add(pomme);
+            recompenses2.Add(or);
+            recompenses2.Add(xp);
+            Evenement evenement2 = new Evenement(recompenses2);
+
+            // EVENEMENT 1 
+            List<Recompense> recompenses3 = new List<Recompense>();
+            recompenses3.Add(banane);
+            recompenses3.Add(pomme);
+            recompenses3.Add(or);
+            recompenses3.Add(xp);
+            Evenement evenement3 = new Evenement(recompenses3);
 
             List<Quete> quetes = new List<Quete>();
-            Collecte quete = new Collecte("Collecte de banane", "Ramasser 10 bananes dans la jungle.", Importance.Secondaire, evenement1, new Banane(10));
-            Exploration quete1 = new Exploration("Explorer la grotte", "Trouve la pièce secrète !", Importance.Secondaire, evenement1, "pièce secrète");
-            Combat quete2 = new Combat("Vaincre le dragon", "Bats-toi contre le dragon pour sauver le village.", Importance.Principale, evenement1, "Dragon Rouge");
+            Collecte quete = new Collecte("Collecte de banane", "Ramasser 10 bananes dans la jungle.", Importance.Secondaire, evenement1, new Banane(TypeRecompense.Banane, 10));
+            Exploration quete1 = new Exploration("Explorer la grotte", "Trouve la pièce secrète !", Importance.Secondaire, evenement2, "pièce secrète");
+            Combat quete2 = new Combat("Vaincre le dragon", "Bats-toi contre le dragon pour sauver le village.", Importance.Principale, evenement3, "Dragon Rouge");
             quetes.Add(quete);
             quetes.Add(quete1);
             quetes.Add(quete2);
