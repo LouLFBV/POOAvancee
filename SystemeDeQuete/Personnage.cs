@@ -21,31 +21,23 @@ namespace SystemeDeQuete
             _listeDeRecompense = new List<Recompense>();
         }
 
-        #region Méthodes Afficher
+        #region Méthodes Obtenir
 
-        public void AfficherXp()
+        public int ObtenirXp()
         {
-            Console.WriteLine($"XP du joueur : {_xpJoueur}");
+            return _xpJoueur;
         }
-        public void AfficherOr()
+        public int ObtenirOr()
         {
-            Console.WriteLine($"Or du joueur : {_orJoueur}");
+            return _orJoueur;
         }
-        public void AfficherListeDeQuete()
+        public List<Quete> ObtenirListeDeQuete()
         {
-            Console.WriteLine("Quêtes du joueur :");
-            foreach (var quete in _listeDeQuete)
-            {
-                Console.WriteLine($"- {quete}");
-            }
+            return _listeDeQuete;
         }
-        public void AfficherListeDeRecompense()
+        public List<Recompense> ObtenirListeDeRecompense()
         {
-            Console.WriteLine("Récompenses du joueur :");
-            foreach (var recompense in _listeDeRecompense)
-            {
-                Console.WriteLine($"- {recompense}");
-            }
+            return _listeDeRecompense;
         }
 
         #endregion

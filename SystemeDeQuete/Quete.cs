@@ -21,24 +21,28 @@ namespace SystemeDeQuete
             _evenement = evenement;
         }
 
-        public string AfficherTitre()
+        public string ObtenirTitre()
         {
             return _titre;
         }
 
-        public string AfficherDescription()
+        public string ObtenirDescription()
         {
             return _description;
         }
 
-        public Importance AfficherImportance()
+        public Importance ObtenirImportance()
         {
             return _importance;
         }
 
-        public Evenement AfficherEvenement()
+        public Evenement ObtenirEvenement()
         {
             return _evenement;
+        }
+        public string AfficherEtat()
+        {
+            return _evenement.ObtenirEtat() ? "complète" : "incomplète";
         }
 
         public void ModifierTitre(string title)

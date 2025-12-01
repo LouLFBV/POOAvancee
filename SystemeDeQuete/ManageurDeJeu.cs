@@ -11,7 +11,6 @@ namespace SystemeDeQuete
         private Personnage _personnage;
         private List<Quete> _quetes;
 
-
         public ManageurDeJeu(List<Quete> quetes)
         {
             _personnage = new Personnage();
@@ -22,7 +21,7 @@ namespace SystemeDeQuete
         public static void AfficherMenuDeChoix()
         {
             Console.WriteLine("1. Afficher les quêtes 📋");
-            Console.WriteLine("2. Afficher les récompenses 🎁");
+            Console.WriteLine("2. Afficher les récompenses du joueur 🎁");
             Console.WriteLine("3. Afficher l'XP et l'or du personnage 🪙🧠");
             Console.WriteLine("4. Quitter ➡️🚪");
         }
@@ -30,16 +29,25 @@ namespace SystemeDeQuete
         public void AfficherQuetes()
         {
             Console.WriteLine("Liste des quêtes disponibles :");
-            foreach (var quete in _quetes)
+            foreach (var quete in _personnage.ObtenirListeDeQuete())
             {
-                Console.WriteLine($"- titre : {quete.AfficherTitre()}, description : {quete.AfficherDescription()}, importance : {quete.AfficherImportance()}, état : {quete.AfficherEvenement().AfficherEtat()} ");
+                Console.WriteLine($"- titre : {quete.ObtenirTitre()}, description : {quete.ObtenirDescription()}, importance : {quete.ObtenirImportance()}, état : {quete.AfficherEtat()} ");
             }
         }
 
         public void AfficherStatsDuPersonnage()
         {
-            _personnage.AfficherXp();
-            _personnage.AfficherOr();
+            Console.WriteLine($"Xp du joueur : {_personnage.ObtenirXp()}");
+            Console.WriteLine($"Or du joueur : {_personnage.ObtenirOr()}");
+        }
+
+        public void AfficherLesRecompensesDuJoueur()
+        {
+            Console.WriteLine("Récompenses du joueur :");
+            foreach (var recompense in _personnage.ObtenirListeDeRecompense())
+            {
+                Console.WriteLine($"- {recompense.ObtenirNom()} : {recompense.ObtenirQuantite()}");
+            }
         }
 
         #endregion
@@ -55,7 +63,7 @@ namespace SystemeDeQuete
                         AfficherQuetes();
                         break;
                     case "2":
-                        _personnage.AfficherListeDeRecompense();
+                        AfficherLesRecompensesDuJoueur();
                         break;
                     case "3":
                         AfficherStatsDuPersonnage();

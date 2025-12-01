@@ -21,7 +21,7 @@ namespace SystemeDeQuete
             _lieuATrouver = lieuATrouver;
         }
 
-        public string AfficherLieuATrouver()
+        public string ObtenirLieuATrouver()
         {
             return _lieuATrouver;
         }

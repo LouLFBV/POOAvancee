@@ -10,18 +10,18 @@ namespace SystemeDeQuete
     {
         private bool _etat;
         private List<Recompense> _recompense;
-        public Evenement(bool etat, List<Recompense> recompense)
+        public Evenement(List<Recompense> recompense)
         {
             _recompense = recompense;
-            _etat = etat;
+            _etat = false;
         }
 
-        public bool AfficherEtat()
+        public bool ObtenirEtat()
         {
             return _etat;
         }
 
-        public List<Recompense> AfficherRecompense()
+        public List<Recompense> ObtenirRecompense()
         {
             return _recompense;
         }

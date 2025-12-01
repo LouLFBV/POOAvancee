@@ -14,7 +14,7 @@ namespace SystemeDeQuete
         Recompense objetsACollecter
         ) : Quete(titre, description, importance, evenement)
     {
-        public Recompense AfficherObjetsACollecter()
+        public Recompense ObtenirObjetsACollecter()
         {
             return objetsACollecter;
         }

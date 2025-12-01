@@ -36,7 +36,29 @@ namespace SystemeDeQuete
             //Log.Error("Une erreur est survenue");
             //Recompense recompense = new Recompense();
             //recompense.Test();
-            ManageurDeJeu manageur = new ManageurDeJeu(new List<Quete>());
+
+
+            Banane banane = new Banane(5);
+            Pomme pomme = new Pomme(3);
+            Or or = new Or(100);
+            Xp xp = new Xp(50);
+
+            List<Recompense> recompenses = new List<Recompense>();
+            recompenses.Add(banane);
+            recompenses.Add(pomme);
+            recompenses.Add(or);
+            recompenses.Add(xp);
+            Evenement evenement1 = new Evenement(recompenses);
+
+            List<Quete> quetes = new List<Quete>();
+            Collecte quete = new Collecte("Collecte de banane", "Ramasser 10 bananes dans la jungle.", Importance.Secondaire, evenement1, new Banane(10));
+            Exploration quete1 = new Exploration("Explorer la grotte", "Trouve la pièce secrète !", Importance.Secondaire, evenement1, "pièce secrète");
+            Combat quete2 = new Combat("Vaincre le dragon", "Bats-toi contre le dragon pour sauver le village.", Importance.Principale, evenement1, "Dragon Rouge");
+            quetes.Add(quete);
+            quetes.Add(quete1);
+            quetes.Add(quete2);
+
+            ManageurDeJeu manageur = new ManageurDeJeu(quetes);
 
             Console.WriteLine("## GESTIONNAIRE DE QUETE ##");
             ManageurDeJeu.AfficherMenuDeChoix();

@@ -16,7 +16,7 @@ namespace SystemeDeQuete
         string ennemies
         ) : Quete(titre, description, importance, evenement), IPerteDOr
     {
-        public string AfficherEnnemies()
+        public string ObtenirEnnemies()
         {
             return ennemies;
         }

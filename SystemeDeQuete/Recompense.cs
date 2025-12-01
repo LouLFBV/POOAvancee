@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 public abstract class Recompense : ITypeRecompense
 {
+    protected string _nom;
     protected int _quantite;
 
-    public Recompense(int quantite)
+    public Recompense(string nom, int quantite)
     {
+        _nom = nom;
         _quantite = quantite;
     }
-
-    public int AfficherQuantite()
+    public string ObtenirNom()
+    {
+        return _nom;
+    }
+    public int ObtenirQuantite()
     {
         return _quantite;
     }
