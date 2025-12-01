@@ -19,7 +19,7 @@ namespace SystemeDeQuete
         }
 
         #region Méthodes Afficher
-        public void AfficherMenuDeChoix()
+        public static void AfficherMenuDeChoix()
         {
             Console.WriteLine("1. Afficher les quêtes 📋");
             Console.WriteLine("2. Afficher les récompenses 🎁");
@@ -32,7 +32,7 @@ namespace SystemeDeQuete
             Console.WriteLine("Liste des quêtes disponibles :");
             foreach (var quete in _quetes)
             {
-                Console.WriteLine($"- titre : {quete.AfficherTitre()}, description : {quete.AfficherDescription()}, importance : {quete.AfficherImportance()}, état : {quete.AfficherEvenement().etat} ");
+                Console.WriteLine($"- titre : {quete.AfficherTitre()}, description : {quete.AfficherDescription()}, importance : {quete.AfficherImportance()}, état : {quete.AfficherEvenement().AfficherEtat()} ");
             }
         }
 
@@ -70,7 +70,7 @@ namespace SystemeDeQuete
                 AfficherMenuDeChoix();
             }
         }
-        public void QuitterJeu()
+        public static void QuitterJeu()
         {
             Console.WriteLine("Merci d'avoir joué !");
             Environment.Exit(0);

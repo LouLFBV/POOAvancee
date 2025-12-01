@@ -8,29 +8,22 @@ using System;
 
 namespace SystemeDeQuete
 {
-    class Combat : Quete, IPerteDOr
+    class Combat(
+        string titre,
+        string description,
+        Importance importance,
+        Evenement evenement,
+        string ennemies
+        ) : Quete(titre, description, importance, evenement), IPerteDOr
     {
-        private string _ennemies;
-
-        public Combat(
-            string titre,
-            string description,
-            Importance importance,
-            Evenement evenement,
-            string ennemies
-        ) : base(titre, description, importance, evenement)
-        {
-            _ennemies = ennemies;
-        }
-
         public string AfficherEnnemies()
         {
-            return _ennemies;
+            return ennemies;
         }
 
         public void ModifierEnnemies(string nouveauxEnnemies)
         {
-            _ennemies = nouveauxEnnemies;
+            ennemies = nouveauxEnnemies;
         }
 
         public void VolDOr(int montant)

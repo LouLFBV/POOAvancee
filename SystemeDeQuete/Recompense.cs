@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Recompense : ITypeRecompense
+public abstract class Recompense : ITypeRecompense
 {
-    private int _quantite;
+    protected int _quantite;
 
     public Recompense(int quantite)
     {
@@ -24,8 +24,5 @@ public class Recompense : ITypeRecompense
     }
 
 
-    public void AppliquerRecompense()
-    {
-
-    }
+    public abstract void AppliquerRecompense();
 }

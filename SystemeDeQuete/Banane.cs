@@ -1,12 +1,11 @@
-public class Banane : Recompense
+namespace SystemeDeQuete
 {
-    public Banane(int quantite)
+    public class Banane : Recompense
     {
-        _quantite = quantite;
-    }
-
-    public void AppliquerRecompense()
-    {
-        Console.WriteLine($"Le joueur reçoit {Quantite} banane(s) !");
+        public Banane(int quantite):base(quantite){}
+        public override void AppliquerRecompense()
+        {
+            Console.WriteLine($"Le joueur reçoit {_quantite} banane(s) !");
+        }
     }
 }

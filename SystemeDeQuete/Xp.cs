@@ -1,12 +1,12 @@
-public class Xp : Recompense
+namespace SystemeDeQuete
 {
-    public Xp(int quantite)
+    public class Xp : Recompense
     {
-        _quantite = quantite;
-    }
+        public Xp(int quantite) : base(quantite) { }
 
-    public void AppliquerRecompense()
-    {
-        Console.WriteLine($"Le joueur reçoit {Quantite} Xp !");
+        public override void AppliquerRecompense()
+        {
+            Console.WriteLine($"Le joueur reçoit {_quantite} Xp !");
+        }
     }
 }

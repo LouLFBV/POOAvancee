@@ -39,7 +39,7 @@ namespace SystemeDeQuete
             ManageurDeJeu manageur = new ManageurDeJeu(new List<Quete>());
 
             Console.WriteLine("## GESTIONNAIRE DE QUETE ##");
-            manageur.AfficherMenuDeChoix();
+            ManageurDeJeu.AfficherMenuDeChoix();
             manageur.GererChoixUtilisateur();
         }
     }

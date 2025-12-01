@@ -1,12 +1,12 @@
-public class Pomme : Recompense
+namespace SystemeDeQuete
 {
-    public Pomme(int quantite)
+    public class Pomme : Recompense
     {
-        _quantite = quantite;
-    }
+        public Pomme(int quantite) : base(quantite) { }
 
-    public void AppliquerRecompense()
-    {
-        Console.WriteLine($"Le joueur reçoit {Quantite} pomme(s) !");
+        public override void AppliquerRecompense()
+        {
+            Console.WriteLine($"Le joueur reçoit {_quantite} pomme(s) !");
+        }
     }
 }

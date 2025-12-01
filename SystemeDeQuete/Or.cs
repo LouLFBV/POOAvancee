@@ -1,12 +1,13 @@
-public class Or : Recompense
+namespace SystemeDeQuete
 {
-    public Or(int quantite)
+    public class Or : Recompense
     {
-        _quantite = quantite;
-    }
+        public Or(int quantite) : base(quantite) { }
 
-    public void AppliquerRecompense()
-    {
-        Console.WriteLine($"Le joueur reçoit {Quantite} Or !");
+        public override void AppliquerRecompense()
+        {
+            Console.WriteLine($"Le joueur reçoit {_quantite} Or !");
+        }
     }
 }
+    

@@ -6,29 +6,22 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Collecte : Quete
+    class Collecte(
+        string titre,
+        string description,
+        Importance importance,
+        Evenement evenement,
+        Recompense objetsACollecter
+        ) : Quete(titre, description, importance, evenement)
     {
-        private string _objetsACollecter;
-
-        public Collecte(
-            string titre,
-            string description,
-            Importance importance,
-            Evenement evenement,
-            string objetsACollecter
-        ) : base(titre, description, importance, evenement)
+        public Recompense AfficherObjetsACollecter()
         {
-            _objetsACollecter = objetsACollecter;
+            return objetsACollecter;
         }
 
-        public string AfficherObjetsACollecter()
+        public void ModifierObjetsACollecter(Recompense nouveauxObjets)
         {
-            return _objetsACollecter;
-        }
-
-        public void ModifierObjetsACollecter(string nouveauxObjets)
-        {
-            _objetsACollecter = nouveauxObjets;
+            objetsACollecter = nouveauxObjets;
         }
     }
 }
