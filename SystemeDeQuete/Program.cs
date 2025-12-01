@@ -68,7 +68,7 @@ namespace SystemeDeQuete
             Evenement evenement3 = new Evenement(recompenses3);
 
             List<Quete> quetes = new List<Quete>();
-            Collecte quete = new Collecte("Collecte de banane", "Ramasser 10 bananes dans la jungle.", Importance.Secondaire, evenement1, new Banane(TypeRecompense.Banane, 10));
+            Collecte quete = new Collecte("Collecte de banane", "Ramasser 10 bananes dans la jungle.", Importance.Secondaire, evenement1, recompenses1);
             Exploration quete1 = new Exploration("Explorer la grotte", "Trouve la pièce secrète !", Importance.Secondaire, evenement2, "pièce secrète");
             Combat quete2 = new Combat("Vaincre le dragon", "Bats-toi contre le dragon pour sauver le village.", Importance.Principale, evenement3, "Dragon Rouge");
             quetes.Add(quete);

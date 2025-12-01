@@ -6,17 +6,23 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Collecte(
-        string titre,
-        string description,
-        Importance importance,
-        Evenement evenement,
-        Recompense objetsACollecter
-        ) : Quete(titre, description, importance, evenement)
+    class Collecte : Quete
     {
-        public Recompense ObtenirObjetsACollecter()
+        private List<Recompense> _objetsACollecter;
+
+        public Collecte(
+            string titre,
+            string description,
+            Importance importance,
+            Evenement evenement,
+            List<Recompense> objetsACollecter
+        ) : base(titre, description, importance, evenement)
         {
-            return objetsACollecter;
+            _objetsACollecter = objetsACollecter;
+        }
+        public List<Recompense> ObtenirObjetsACollecter()
+        {
+            return _objetsACollecter;
         }
 
         public override void VerifierCompletion()
@@ -24,9 +30,9 @@ namespace SystemeDeQuete
             int valeur = _rand.Next(0, 101);
             _evenement.ModifierEtat(valeur > 60);
         }
-        public void ModifierObjetsACollecter(Recompense nouveauxObjets)
+        public void ModifierObjetsACollecter(List<Recompense> nouveauxObjets)
         {
-            objetsACollecter = nouveauxObjets;
+            _objetsACollecter = nouveauxObjets;
         }
     }
 }

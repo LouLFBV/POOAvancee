@@ -65,6 +65,7 @@ namespace SystemeDeQuete
             Console.WriteLine("Chemins proposés :");
             for (int i = _indexChemin; i <= _indexChemin + 3; i++)
             {
+                Log.Info("Démarrage OK");
                 Console.WriteLine($"{i + 1}. {_quetes[i].ObtenirTitre()} - {_quetes[i].ObtenirDescription()}");
             }
             GererChoixChemin(_quetes[_indexChemin], _quetes[_indexChemin + 1], _quetes[_indexChemin + 2]);
