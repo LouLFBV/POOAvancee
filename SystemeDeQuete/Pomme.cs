@@ -2,7 +2,7 @@ namespace SystemeDeQuete
 {
     public class Pomme : Recompense
     {
-        public Pomme(int quantite) : base(quantite) { }
+        public Pomme(string nom, int quantite) : base(nom, quantite) { }
 
         public override void AppliquerRecompense()
         {

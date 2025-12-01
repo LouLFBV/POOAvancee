@@ -62,7 +62,7 @@ namespace SystemeDeQuete
 
             Console.WriteLine("## GESTIONNAIRE DE QUETE ##");
             ManageurDeJeu.AfficherMenuDeChoix();
-            manageur.GererChoixUtilisateur();
+            manageur.GererChoixMenu();
         }
     }
 

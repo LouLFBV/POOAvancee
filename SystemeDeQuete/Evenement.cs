@@ -16,6 +16,14 @@ namespace SystemeDeQuete
             _etat = false;
         }
 
+        public void AfficherRecompenses()
+        {
+            Console.WriteLine("Récompenses obtenues :");
+            foreach (var recompense in _recompense)
+            {
+                recompense.AfficherDetails();
+            }
+        }
         public bool ObtenirEtat()
         {
             return _etat;

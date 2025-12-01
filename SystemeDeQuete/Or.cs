@@ -2,7 +2,7 @@ namespace SystemeDeQuete
 {
     public class Or : Recompense
     {
-        public Or(int quantite) : base(quantite) { }
+        public Or(string nom, int quantite) : base(nom, quantite) { }
 
         public override void AppliquerRecompense()
         {

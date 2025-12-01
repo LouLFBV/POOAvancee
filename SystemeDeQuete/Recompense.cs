@@ -14,6 +14,11 @@ public abstract class Recompense : ITypeRecompense
         _nom = nom;
         _quantite = quantite;
     }
+
+    public void AfficherDetails()
+    {
+        Console.WriteLine($"- {_nom}, Quantité: {_quantite}");
+    }
     public string ObtenirNom()
     {
         return _nom;

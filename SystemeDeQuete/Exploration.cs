@@ -31,6 +31,13 @@ namespace SystemeDeQuete
             _lieuATrouver = nouveauLieu;
         }
 
+
+        public override void VerifierCompletion()
+        {
+            int valeur = _rand.Next(0, 101);
+            _evenement.ModifierEtat(valeur > 50);              
+        }
+
         public void VolDOr(int montant)
         {
             Console.WriteLine($"Vous avez perdu {montant} pièces d'or !");

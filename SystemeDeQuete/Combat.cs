@@ -21,6 +21,11 @@ namespace SystemeDeQuete
             return ennemies;
         }
 
+        public override void VerifierCompletion()
+        {
+            int valeur = _rand.Next(0, 101);
+            _evenement.ModifierEtat(valeur > 40);
+        }
         public void ModifierEnnemies(string nouveauxEnnemies)
         {
             ennemies = nouveauxEnnemies;

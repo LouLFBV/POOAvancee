@@ -19,6 +19,11 @@ namespace SystemeDeQuete
             return objetsACollecter;
         }
 
+        public override void VerifierCompletion()
+        {
+            int valeur = _rand.Next(0, 101);
+            _evenement.ModifierEtat(valeur > 60);
+        }
         public void ModifierObjetsACollecter(Recompense nouveauxObjets)
         {
             objetsACollecter = nouveauxObjets;

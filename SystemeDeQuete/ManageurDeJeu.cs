@@ -10,20 +10,30 @@ namespace SystemeDeQuete
     {
         private Personnage _personnage;
         private List<Quete> _quetes;
-
+        private int _indexChemin;
         public ManageurDeJeu(List<Quete> quetes)
         {
             _personnage = new Personnage();
             _quetes = quetes;
+            _indexChemin = 0;
         }
 
         #region Méthodes Afficher
         public static void AfficherMenuDeChoix()
         {
-            Console.WriteLine("1. Afficher les quêtes 📋");
+            Console.WriteLine("1. Afficher le journal de quêtes 📋");
             Console.WriteLine("2. Afficher les récompenses du joueur 🎁");
             Console.WriteLine("3. Afficher l'XP et l'or du personnage 🪙🧠");
-            Console.WriteLine("4. Quitter ➡️🚪");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
+            Console.WriteLine("4. Patir à l'aventure ! 🚀");
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("5. Quitter ➡️🚪");
         }
 
         public void AfficherQuetes()
@@ -50,9 +60,19 @@ namespace SystemeDeQuete
             }
         }
 
+        public void AfficherLesCheminsProposés()
+        {
+            Console.WriteLine("Chemins proposés :");
+            for (int i = _indexChemin; i <= _indexChemin + 3; i++)
+            {
+                Console.WriteLine($"{i + 1}. {_quetes[i].ObtenirTitre()} - {_quetes[i].ObtenirDescription()}");
+            }
+            GererChoixChemin(_quetes[_indexChemin], _quetes[_indexChemin + 1], _quetes[_indexChemin + 2]);
+        }
+
         #endregion
 
-        public void GererChoixUtilisateur()
+        public void GererChoixMenu()
         {
             while (true)
             {
@@ -69,6 +89,9 @@ namespace SystemeDeQuete
                         AfficherStatsDuPersonnage();
                         break;
                     case "4":
+                        AfficherLesCheminsProposés();
+                        break;
+                    case "5":
                         QuitterJeu();
                         break;
                     default:
@@ -76,6 +99,50 @@ namespace SystemeDeQuete
                         break;
                 }
                 AfficherMenuDeChoix();
+            }
+        }
+
+        public void GererChoixChemin(Quete quete1, Quete quete2, Quete quete3)
+        {
+            while (true)
+            {
+                var choix = Console.ReadLine();
+                switch (choix)
+                {
+                    case "1":
+                        quete1.VerifierCompletion();
+                        if (quete1.ObtenirEvenement().ObtenirEtat())
+                        {
+                            Console.WriteLine("Quête complétée ! Vous venez d'obtenir :\n");
+                            quete1.ObtenirEvenement().AfficherRecompenses();
+                        }
+                        else
+                            Console.WriteLine("Quête imcomplétée !");
+                        break;
+                    case "2":
+                        quete2.VerifierCompletion();
+                        if (quete2.ObtenirEvenement().ObtenirEtat())
+                        {
+                            Console.WriteLine("Quête complétée ! Vous venez d'obtenir :\n");
+                            quete2.ObtenirEvenement().AfficherRecompenses();
+                        }
+                        else
+                            Console.WriteLine("Quête imcomplétée !");
+                        break;
+                    case "3":
+                        quete3.VerifierCompletion();
+                        if (quete3.ObtenirEvenement().ObtenirEtat())
+                        {
+                            Console.WriteLine("Quête complétée ! Vous venez d'obtenir :\n");
+                            quete3.ObtenirEvenement().AfficherRecompenses();
+                        }
+                        else
+                            Console.WriteLine("Quête imcomplétée !");
+                        break;
+                    default:
+                        Console.WriteLine("Choix invalide, veuillez réessayer.");
+                        break;
+                }
             }
         }
         public static void QuitterJeu()

@@ -8,10 +8,11 @@ namespace SystemeDeQuete
 {
     public abstract class Quete
     {
+        protected static readonly Random _rand = new Random();
         private string _titre;
         private string _description;
         private Importance _importance;
-        private Evenement _evenement;
+        protected Evenement _evenement;
 
         protected Quete(string titre, string description, Importance importance, Evenement evenement)
         {
@@ -20,7 +21,25 @@ namespace SystemeDeQuete
             _importance = importance;
             _evenement = evenement;
         }
+        public string AfficherEtat()
+        {
+            return _evenement.ObtenirEtat() ? "complète" : "incomplète";
+        }
 
+        public void AfficherEvenement()
+        {
+            if(_evenement.ObtenirEtat())
+            {
+                Console.WriteLine("Événement déjà complété.");
+            }
+            else
+            {
+                Console.WriteLine("Événement en cours.");
+            }
+        }
+
+        public abstract void VerifierCompletion();
+        #region Méthodes Obtenir
         public string ObtenirTitre()
         {
             return _titre;
@@ -40,11 +59,9 @@ namespace SystemeDeQuete
         {
             return _evenement;
         }
-        public string AfficherEtat()
-        {
-            return _evenement.ObtenirEtat() ? "complète" : "incomplète";
-        }
+        #endregion
 
+        #region Méthodes Modifier
         public void ModifierTitre(string title)
         {
             _titre = title;
@@ -59,6 +76,7 @@ namespace SystemeDeQuete
         {
             _importance = important;
         }
+        #endregion
     }
     public enum Importance
     {
