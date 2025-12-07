@@ -213,5 +213,19 @@ namespace SystemeDeQuete
         }
 
         #endregion
+
+        public List<Quete> ObtenirQuetesRestantes()
+        {
+            List<Quete> restantes = new List<Quete>();
+            foreach (var q in _quetes)
+            {
+                if (!_personnage.ObtenirListeDeQuete().Contains(q) || !q.ObtenirEvenement().ObtenirEtat())
+                {
+                    restantes.Add(q);
+                }
+            }
+            return restantes;
+        }
+
     }
 }

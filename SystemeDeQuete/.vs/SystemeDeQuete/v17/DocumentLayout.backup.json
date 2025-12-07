@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,8 +134,7 @@
               "RelativeToolTip": "Exploration.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:46:57.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:46:57.073Z"
             },
             {
               "$type": "Document",
@@ -171,8 +170,7 @@
               "RelativeToolTip": "Combat.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:42.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:45:42.682Z"
             },
             {
               "$type": "Document",
@@ -184,8 +182,7 @@
               "RelativeToolTip": "Evenement.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:24.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:45:24.177Z"
             },
             {
               "$type": "Document",
@@ -197,12 +194,11 @@
               "RelativeToolTip": "Recompense.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:12.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:45:12.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Quete.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Quete.cs",
               "RelativeDocumentMoniker": "Quete.cs",
@@ -210,8 +206,7 @@
               "RelativeToolTip": "Quete.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAIwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:44:59.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:44:59.524Z"
             },
             {
               "$type": "Document",
@@ -223,31 +218,30 @@
               "RelativeToolTip": "Personnage.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAkwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:44:40.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T18:44:40.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ManageurDeJeu.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ManageurDeJeu.cs",
               "RelativeDocumentMoniker": "ManageurDeJeu.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ManageurDeJeu.cs",
               "RelativeToolTip": "ManageurDeJeu.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T18:44:15.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwEMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T09:01:24.029Z",
               "EditorCaption": ""

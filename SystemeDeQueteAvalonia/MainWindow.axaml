@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SystemeDeQueteAvalonia.MainWindow"
+        Title="Gestionnaire de Quêtes"
+        Width="1000" Height="700"
+        MinWidth="900" MinHeight="600">
+
+	<DockPanel Margin="10">
+
+		<!-- BOUTONS PRINCIPAUX -->
+		<StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,10" Spacing="10">
+			<Button x:Name="btnAventure" Content="Partir à l'aventure" Width="180" Height="40"/>
+			<Button x:Name="btnQuetes" Content="Journal de quêtes" Width="180" Height="40"/>
+			<Button x:Name="btnStats" Content="Stats" Width="120" Height="40"/>
+			<Button x:Name="btnRecompenses" Content="Récompenses" Width="150" Height="40"/>
+			<Button x:Name="btnQuitter" Content="Quitter" Width="120" Height="40"/>
+		</StackPanel>
+
+		<!-- PANEL DES QUÊTES -->
+		<ScrollViewer DockPanel.Dock="Top" VerticalScrollBarVisibility="Auto" Height="150" Margin="0,0,0,2">
+			<StackPanel x:Name="questsPanel" Orientation="Vertical" />
+		</ScrollViewer>
+
+		<!-- PANEL DE LOGS -->
+		<ScrollViewer DockPanel.Dock="Bottom" VerticalScrollBarVisibility="Auto" Height="300">
+			<StackPanel x:Name="logPanel" Orientation="Vertical" />
+		</ScrollViewer>
+
+	</DockPanel>
+</Window>

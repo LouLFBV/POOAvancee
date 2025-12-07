@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\banane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:banane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Banane.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Banane.cs",
+              "RelativeDocumentMoniker": "Banane.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Banane.cs",
+              "RelativeToolTip": "Banane.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:42:54.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Xp.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Xp.cs",
+              "RelativeDocumentMoniker": "Xp.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Xp.cs",
+              "RelativeToolTip": "Xp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:42:48.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pomme.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Pomme.cs",
+              "RelativeDocumentMoniker": "Pomme.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Pomme.cs",
+              "RelativeToolTip": "Pomme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:42:43.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Personnage.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Personnage.cs",
+              "RelativeDocumentMoniker": "Personnage.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Personnage.cs",
+              "RelativeToolTip": "Personnage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwH8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:41:31.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Or.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Or.cs",
+              "RelativeDocumentMoniker": "Or.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Or.cs",
+              "RelativeToolTip": "Or.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:41:25.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MainWindow.axaml",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml",
+              "RelativeToolTip": "MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-07T14:13:39.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.axaml.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml.cs",
+              "RelativeToolTip": "MainWindow.axaml.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAowLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:13:37.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageurDeJeu.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\ManageurDeJeu.cs",
+              "RelativeDocumentMoniker": "ManageurDeJeu.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\ManageurDeJeu.cs",
+              "RelativeToolTip": "ManageurDeJeu.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAQwPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:36:36.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
