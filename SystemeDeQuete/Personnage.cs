@@ -66,6 +66,38 @@ namespace SystemeDeQuete
             _listeDeRecompense.Add(recompense);
         }
 
+        public void AjouterRecompenses(List<Recompense> recompenses)
+        {
+            foreach (var recompense in recompenses)
+            {
+                if (recompense.ObtenirNom() == TypeRecompense.Xp)
+                {
+                    AjouterEnleverXp(recompense.ObtenirQuantite());
+                    continue;
+                }
+
+                if (recompense.ObtenirNom() == TypeRecompense.Or)
+                {
+                    AjouterEnleverOr(recompense.ObtenirQuantite());
+                    continue;
+                }
+
+                var existante = _listeDeRecompense
+                    .FirstOrDefault(r => r.ObtenirNom() == recompense.ObtenirNom());
+
+                if (existante != null)
+                {
+                    existante.ModifierQuantite(
+                        existante.ObtenirQuantite() + recompense.ObtenirQuantite());
+                }
+                else
+                {
+                    AjouterRecompense(recompense);
+                }
+            }
+        }
+
+
         public void EnleverRecompense(Recompense recompense)
         {
             _listeDeRecompense.Remove(recompense);
@@ -103,6 +135,14 @@ namespace SystemeDeQuete
             Log.Error("Une erreur est survenue");
             Console.WriteLine("Entrer un chiffre !");
             var chiffre = Console.ReadLine();
+        }
+
+        public void ReinitialiserPersonnage()
+        {
+            _xpJoueur = 0;
+            _orJoueur = 0;
+            _listeDeQuete = new List<Quete>();
+            _listeDeRecompense = new List<Recompense>(); ;
         }
     }
 }
