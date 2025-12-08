@@ -25,7 +25,7 @@ namespace SystemeDeQuete
             return _objetsACollecter;
         }
 
-        public override void VerifierCompletion()
+        public override void VerifierCompletion(Personnage personnage)
         {
             int valeur = _rand.Next(0, 101);
             _evenement.ModifierEtat(valeur > 60);

@@ -21,19 +21,30 @@ namespace SystemeDeQuete
             return ennemies;
         }
 
-        public override void VerifierCompletion()
+        public override void VerifierCompletion(Personnage personnage)
         {
             int valeur = _rand.Next(0, 101);
             _evenement.ModifierEtat(valeur > 40);
+
+            int voleurDOrChance = _rand.Next(0, 101);
+            if (voleurDOrChance < 30)
+            {
+                VolDOr(personnage);
+            }
         }
         public void ModifierEnnemies(string nouveauxEnnemies)
         {
             ennemies = nouveauxEnnemies;
         }
 
-        public void VolDOr(int montant)
+        public void VolDOr(Personnage personnage)
         {
-            Console.WriteLine($"Vous avez perdu {montant} pièces d'or !");
+            if (personnage.ObtenirOr() < 50)
+            {
+                personnage.AjouterEnleverOr(-personnage.ObtenirOr());
+                return;
+            }
+            personnage.AjouterEnleverOr(-50);
         }
     }
 }

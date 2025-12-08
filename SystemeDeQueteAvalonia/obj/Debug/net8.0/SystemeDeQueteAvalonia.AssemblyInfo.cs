@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SystemeDeQueteAvalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7dccb86f4b86cd8c566305ba2837a9019217671")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75144d1093044ae10aad23ca657426ca08083217")]
 [assembly: System.Reflection.AssemblyProductAttribute("SystemeDeQueteAvalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SystemeDeQueteAvalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -77,9 +77,7 @@ namespace SystemeDeQueteAvalonia
             };
         }
 
-        // ============================
-        // BOUTON AVENTURE : afficher 3 quêtes
-        // ============================
+        #region BOUTON AVENTURE : afficher 3 quêtes
         private void BtnAventure_Click(object? sender, RoutedEventArgs e)
         {
             logPanel.Children.Clear(); 
@@ -126,7 +124,7 @@ namespace SystemeDeQueteAvalonia
             if (sender is not Button btn || btn.Tag is not Quete q)
                 return;
 
-            q.VerifierCompletion();
+            
 
             bool boss = q.ObtenirImportance() == Importance.Principale;
             bool assezXp = _personnage.ObtenirXp() >= 100;
@@ -139,6 +137,14 @@ namespace SystemeDeQueteAvalonia
                 questsPanel.Children.Clear();
                 _indexChemin = 0;
                 return;
+            }
+
+            int orAvant = _personnage.ObtenirOr();
+            q.VerifierCompletion(_personnage);
+            int orApres = _personnage.ObtenirOr();
+            if (orApres < orAvant)
+            {
+                AppendLog($"💸 Un voleur vous a volé {orAvant - orApres} pièces d'or lors de cette quête.", Avalonia.Media.Brushes.Orange);
             }
 
             if (q.ObtenirEvenement().ObtenirEtat())
@@ -159,13 +165,11 @@ namespace SystemeDeQueteAvalonia
 
             AfficherTroisQuetes();
         }
+        #endregion
 
 
 
-
-        // ============================
-        // AUTRES BOUTONS
-        // ============================
+        #region AUTRES BOUTONS
         private void BtnQuetes_Click(object? sender, RoutedEventArgs e)
         {
 
@@ -193,10 +197,9 @@ namespace SystemeDeQueteAvalonia
             foreach (var r in _personnage.ObtenirListeDeRecompense())
                 AppendLog($"- {r.ObtenirNom()} : {r.ObtenirQuantite()}");
         }
+        #endregion
 
-        // ============================
-        // LOG
-        // ============================
+        #region LOG
         private void AppendLog(string message, Avalonia.Media.IBrush? couleur = null)
         {
             var texte = new TextBlock
@@ -216,24 +219,8 @@ namespace SystemeDeQueteAvalonia
             }
         }
 
-
-        // ============================
-        // LOGIQUE DE JEU : quêtes restantes
-        // ============================
-        private List<Quete> ObtenirQuetesRestantes()
-        {
-            var restantes = new List<Quete>();
-            foreach (var q in _quetes)
-            {
-                if (!_personnage.ObtenirListeDeQuete().Contains(q) || !q.ObtenirEvenement().ObtenirEtat())
-                    restantes.Add(q);
-            }
-            return restantes;
-        }
-
-        // ============================
-        // RESET TOTAL
-        // ============================
+        #endregion
+        #region RESET TOTAL
         private void ReinitialiserPartie()
         {
             _personnage.ReinitialiserPersonnage();
@@ -242,4 +229,5 @@ namespace SystemeDeQueteAvalonia
                 q.ObtenirEvenement().ModifierEtat(false);
         }
     }
+    #endregion
 }

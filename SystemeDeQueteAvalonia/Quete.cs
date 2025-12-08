@@ -38,7 +38,7 @@ namespace SystemeDeQuete
             }
         }
 
-        public abstract void VerifierCompletion();
+        public abstract void VerifierCompletion(Personnage personnage);
         #region Méthodes Obtenir
         public string ObtenirTitre()
         {
