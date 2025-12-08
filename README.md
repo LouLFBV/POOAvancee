@@ -43,7 +43,7 @@ Le projet existe sous deux formes :
 │
 ├── Personnage.cs
 ├── MainWindow.axaml
-├── MainWindow.axaml.cs → Interface graphique
+├── MainWindow.axaml.cs
 ├── App.axaml
 ├── Program.cs
 ├── /Recompenses
