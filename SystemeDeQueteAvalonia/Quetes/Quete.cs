@@ -1,6 +1,7 @@
 ﻿using System;
+using SystemeDeQueteAvalonia.Recompenses;
 
-namespace SystemeDeQueteAvalonia
+namespace SystemeDeQueteAvalonia.Quetes
 {
     public abstract class Quete
     {

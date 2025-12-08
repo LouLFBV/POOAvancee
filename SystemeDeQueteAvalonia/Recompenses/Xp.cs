@@ -1,6 +1,6 @@
 using System;
 
-namespace SystemeDeQueteAvalonia
+namespace SystemeDeQueteAvalonia.Recompenses
 {
     public class Xp : Recompense
     {

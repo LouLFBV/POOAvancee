@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SystemeDeQueteAvalonia
+namespace SystemeDeQueteAvalonia.Recompenses
 {
     public class Evenement
     {

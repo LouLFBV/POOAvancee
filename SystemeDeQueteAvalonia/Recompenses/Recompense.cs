@@ -1,4 +1,4 @@
-﻿namespace SystemeDeQueteAvalonia
+﻿namespace SystemeDeQueteAvalonia.Recompenses
 {
     public abstract class Recompense : ITypeRecompense
     {

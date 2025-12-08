@@ -1,4 +1,6 @@
-﻿namespace SystemeDeQueteAvalonia
+﻿using SystemeDeQueteAvalonia.Recompenses;
+
+namespace SystemeDeQueteAvalonia.Quetes
 {
     class Combat : Quete, IPerteDOr
     {

@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using SystemeDeQueteAvalonia.Quetes;
+using SystemeDeQueteAvalonia.Recompenses;
 
 namespace SystemeDeQueteAvalonia
 {
