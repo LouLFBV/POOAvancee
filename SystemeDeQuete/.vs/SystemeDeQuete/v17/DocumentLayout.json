@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:manageurdejeu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\banane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +45,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequete\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DA3597-2090-41E6-A897-7C4652762C93}|SystemeDeQuete.csproj|solutionrelative:evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,103 +82,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
+              "Title": "ITypeRecompense.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ITypeRecompense.cs",
+              "RelativeDocumentMoniker": "ITypeRecompense.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ITypeRecompense.cs",
+              "RelativeToolTip": "ITypeRecompense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T10:10:16.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Or.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Or.cs",
               "RelativeDocumentMoniker": "Or.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Or.cs",
               "RelativeToolTip": "Or.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:51:42.537Z"
+              "WhenOpened": "2025-11-30T20:51:42.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Pomme.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Pomme.cs",
               "RelativeDocumentMoniker": "Pomme.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Pomme.cs",
               "RelativeToolTip": "Pomme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:47:59.737Z"
+              "WhenOpened": "2025-11-30T20:47:59.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Banane.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Banane.cs",
               "RelativeDocumentMoniker": "Banane.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Banane.cs",
               "RelativeToolTip": "Banane.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T20:42:13.25Z"
+              "WhenOpened": "2025-11-30T20:42:13.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Xp.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Xp.cs",
               "RelativeDocumentMoniker": "Xp.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Xp.cs",
               "RelativeToolTip": "Xp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:59:25.976Z"
+              "WhenOpened": "2025-11-24T11:59:25.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Exploration.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Exploration.cs",
               "RelativeDocumentMoniker": "Exploration.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Exploration.cs",
               "RelativeToolTip": "Exploration.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:46:57.073Z"
+              "WhenOpened": "2025-11-23T18:46:57.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Collecte.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Collecte.cs",
               "RelativeDocumentMoniker": "Collecte.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Collecte.cs",
               "RelativeToolTip": "Collecte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:46:39.577Z"
+              "WhenOpened": "2025-11-23T18:46:39.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IPerteDOr.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\IPerteDOr.cs",
               "RelativeDocumentMoniker": "IPerteDOr.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\IPerteDOr.cs",
               "RelativeToolTip": "IPerteDOr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:46:26.365Z"
+              "WhenOpened": "2025-11-23T18:46:26.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Combat.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Combat.cs",
               "RelativeDocumentMoniker": "Combat.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Combat.cs",
               "RelativeToolTip": "Combat.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:42.682Z"
+              "WhenOpened": "2025-11-23T18:45:42.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Evenement.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Evenement.cs",
               "RelativeDocumentMoniker": "Evenement.cs",
@@ -186,27 +211,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Recompense.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Recompense.cs",
               "RelativeDocumentMoniker": "Recompense.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Recompense.cs",
               "RelativeToolTip": "Recompense.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:45:12.141Z"
+              "WhenOpened": "2025-11-23T18:45:12.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Quete.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Quete.cs",
               "RelativeDocumentMoniker": "Quete.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Quete.cs",
               "RelativeToolTip": "Quete.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwBoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:44:59.524Z"
+              "WhenOpened": "2025-11-23T18:44:59.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -216,31 +243,33 @@
               "RelativeDocumentMoniker": "Personnage.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Personnage.cs",
               "RelativeToolTip": "Personnage.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:44:40.167Z"
+              "WhenOpened": "2025-11-23T18:44:40.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ManageurDeJeu.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ManageurDeJeu.cs",
               "RelativeDocumentMoniker": "ManageurDeJeu.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\ManageurDeJeu.cs",
               "RelativeToolTip": "ManageurDeJeu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAA3wF8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:44:15.919Z"
+              "WhenOpened": "2025-11-23T18:44:15.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQuete\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAcwEMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwEMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T09:01:24.029Z",
               "EditorCaption": ""

@@ -34,7 +34,7 @@ public abstract class Recompense : ITypeRecompense
     }
 
 
-    public abstract void AppliquerRecompense();
+    public abstract int AppliquerRecompense();
 }
 
 public enum TypeRecompense

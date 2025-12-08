@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Personnage
+    public class Personnage
     {
         private int _xpJoueur;
         private int _orJoueur;

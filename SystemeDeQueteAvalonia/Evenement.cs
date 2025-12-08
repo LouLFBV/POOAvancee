@@ -1,29 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace SystemeDeQuete
+namespace SystemeDeQueteAvalonia
 {
     public class Evenement
     {
+        #region Champs
         private bool _etat;
         private List<Recompense> _recompense;
+        #endregion
+
+        #region Constructeur
         public Evenement(List<Recompense> recompense)
         {
             _recompense = recompense;
             _etat = false;
         }
+        #endregion
 
-        public void AfficherRecompenses()
-        {
-            Console.WriteLine("Récompenses obtenues :");
-            foreach (var recompense in _recompense)
-            {
-                recompense.AfficherDetails();
-            }
-        }
+        #region Méthodes Obtenir
         public bool ObtenirEtat()
         {
             return _etat;
@@ -33,15 +27,13 @@ namespace SystemeDeQuete
         {
             return _recompense;
         }
+        #endregion
 
+        #region Méthode Modifier
         public void ModifierEtat(bool state)
         {
             _etat = state;
         }
-
-        public void ModifierRecompense(List<Recompense> gifted)
-        {
-            _recompense = gifted;
-        }
+        #endregion
     }
 }

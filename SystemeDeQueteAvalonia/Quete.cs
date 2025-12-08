@@ -1,19 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SystemeDeQuete
+namespace SystemeDeQueteAvalonia
 {
     public abstract class Quete
     {
+        #region Champs
         protected static readonly Random _rand = new Random();
         private string _titre;
         private string _description;
         private Importance _importance;
         protected Evenement _evenement;
+        #endregion
 
+        #region Constructeur
         protected Quete(string titre, string description, Importance importance, Evenement evenement)
         {
             _titre = titre;
@@ -21,24 +20,15 @@ namespace SystemeDeQuete
             _importance = importance;
             _evenement = evenement;
         }
+        #endregion
+
+        #region Méthodes Afficher
         public string AfficherEtat()
         {
             return _evenement.ObtenirEtat() ? "complète" : "incomplète";
         }
+        #endregion
 
-        public void AfficherEvenement()
-        {
-            if(_evenement.ObtenirEtat())
-            {
-                Console.WriteLine("Événement déjà complété.");
-            }
-            else
-            {
-                Console.WriteLine("Événement en cours.");
-            }
-        }
-
-        public abstract void VerifierCompletion(Personnage personnage);
         #region Méthodes Obtenir
         public string ObtenirTitre()
         {
@@ -77,11 +67,15 @@ namespace SystemeDeQuete
             _importance = important;
         }
         #endregion
+
+        #region Méthode Abstraite
+        public abstract void VerifierCompletion(Personnage personnage);
+        #endregion
     }
+
     public enum Importance
     {
         Principale,
-        Secondaire,
-        SousQuete
+        Secondaire
     }
 }

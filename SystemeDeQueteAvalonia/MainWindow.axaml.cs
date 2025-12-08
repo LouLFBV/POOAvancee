@@ -2,16 +2,18 @@
 using Avalonia.Interactivity;
 using System;
 using System.Collections.Generic;
-using SystemeDeQuete;
 
 namespace SystemeDeQueteAvalonia
 {
     public partial class MainWindow : Window
     {
+        #region Champs
         private Personnage _personnage;
         private List<Quete> _quetes;
         private int _indexChemin = 0;
+        #endregion
 
+        #region Constructeur
         public MainWindow()
         {
             InitializeComponent();
@@ -24,7 +26,9 @@ namespace SystemeDeQueteAvalonia
             btnRecompenses.Click += BtnRecompenses_Click;
             btnQuitter.Click += (_, __) => Close();
         }
+        #endregion
 
+        #region Initialisation du jeu
         private void InitialiserJeu()
         {
             // Création du personnage
@@ -40,42 +44,42 @@ namespace SystemeDeQueteAvalonia
             _quetes = new List<Quete>
             {
                 new Collecte("Collecte de bananes", "Ramasser 10 bananes.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{banane,xp}), new List<Recompense>{banane}),
+                    new Evenement(new List<Recompense>{banane,xp})),
 
                 new Exploration("Explorer la grotte", "Trouver la pièce secrète.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{pomme,xp}), "Pièce secrète"),
+                    new Evenement(new List<Recompense>{pomme,xp})),
 
                 new Collecte("Cueillir des pommes", "Cueillir 5 pommes.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{pomme,or}), new List<Recompense>{pomme}),
+                    new Evenement(new List<Recompense>{pomme,or})),
 
                 new Exploration("Chercher des herbes", "Explorer pour trouver des herbes rares.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{xp,or}), "Herbier"),
+                    new Evenement(new List<Recompense>{xp,or})),
 
                 new Combat("Chasser le loup", "Éliminer le loup de la forêt.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{or,xp}), "Loup noir"),
+                    new Evenement(new List<Recompense>{or,xp})),
 
                 new Collecte("Collecte de pierres", "Ramasser 3 pierres magiques.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{or,xp}), new List<Recompense>{or}),
+                    new Evenement(new List<Recompense>{or,xp})),
 
                 new Exploration("Trouver le puits ancien", "Explorer les ruines.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{xp,or}), "Puits ancien"),
+                    new Evenement(new List<Recompense>{xp,or})),
 
                 new Combat("Combattre les bandits", "Défendre le village.", Importance.Secondaire,
-                    new Evenement(new List<Recompense>{or,xp}), "Chef des bandits"),
+                    new Evenement(new List<Recompense>{or,xp})),
 
                 new Exploration(
                     "Explorer la forêt mystérieuse",
                     "Partez à la découverte d'une forêt remplie de secrets et d'énigmes.",
                     Importance.Secondaire,
-                    new Evenement(new List<Recompense> { banane, pomme, xp }),
-                    "Forêt mystérieuse"
+                    new Evenement(new List<Recompense> { banane, pomme, xp })
                 ),
 
                 // Boss final
                 new Combat("Affronter le Dragon Rouge", "Vaincre le Dragon Rouge.", Importance.Principale,
-                    new Evenement(new List<Recompense>{or,xp,banane,pomme}), "Dragon Rouge")
+                    new Evenement(new List<Recompense>{or,xp,banane,pomme}))
             };
         }
+        #endregion
 
         #region BOUTON AVENTURE : afficher 3 quêtes
         private void BtnAventure_Click(object? sender, RoutedEventArgs e)
@@ -104,7 +108,7 @@ namespace SystemeDeQueteAvalonia
             for (int i = 0; i < nombreDeQuetes; i++)
             {
                 var q = _quetes[_indexChemin + i];
-                if (!_personnage.ObtenirListeDeQuete().Contains(q))
+                if (!_personnage.ObtenirListeDeQuete().Contains(q) && q.ObtenirImportance() != Importance.Principale)
                     _personnage.AjouterQuete(q);
 
                 var btn = new Button
@@ -124,24 +128,26 @@ namespace SystemeDeQueteAvalonia
             if (sender is not Button btn || btn.Tag is not Quete q)
                 return;
 
-            
-
             bool boss = q.ObtenirImportance() == Importance.Principale;
             bool assezXp = _personnage.ObtenirXp() >= 100;
+
+
+            int orAvant = _personnage.ObtenirOr();
+            q.VerifierCompletion(_personnage);
+            int orApres = _personnage.ObtenirOr();
 
             if (boss)
             {
                 AppendLog(assezXp
                     ? "\n🏆 VOUS AVEZ VAINCU LE BOSS !"
                     : "\n💀 VOUS ÊTES MORT FACE AU BOSS...");
+                _personnage.AjouterQuete(q);
+                q.ObtenirEvenement().ModifierEtat(assezXp);
                 questsPanel.Children.Clear();
                 _indexChemin = 0;
                 return;
             }
 
-            int orAvant = _personnage.ObtenirOr();
-            q.VerifierCompletion(_personnage);
-            int orApres = _personnage.ObtenirOr();
             if (orApres < orAvant)
             {
                 AppendLog($"💸 Un voleur vous a volé {orAvant - orApres} pièces d'or lors de cette quête.", Avalonia.Media.Brushes.Orange);
@@ -167,8 +173,6 @@ namespace SystemeDeQueteAvalonia
         }
         #endregion
 
-
-
         #region AUTRES BOUTONS
         private void BtnQuetes_Click(object? sender, RoutedEventArgs e)
         {
@@ -181,7 +185,7 @@ namespace SystemeDeQueteAvalonia
                     ? Avalonia.Media.Brushes.Green   // Quête réussie
                     : Avalonia.Media.Brushes.Red;    // Quête incomplète
 
-                AppendLog($"- {q.ObtenirTitre()} → {q.AfficherEtat()}", couleur);
+                AppendLog($"- {q.ObtenirTitre()} → {q.AfficherEtat()}, Quête {q.ObtenirImportance()}", couleur);
             }
         }
 
@@ -220,6 +224,7 @@ namespace SystemeDeQueteAvalonia
         }
 
         #endregion
+
         #region RESET TOTAL
         private void ReinitialiserPartie()
         {

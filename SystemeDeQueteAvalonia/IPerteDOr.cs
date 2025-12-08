@@ -1,4 +1,4 @@
-﻿namespace SystemeDeQuete
+﻿namespace SystemeDeQueteAvalonia
 {
     public interface IPerteDOr
     {

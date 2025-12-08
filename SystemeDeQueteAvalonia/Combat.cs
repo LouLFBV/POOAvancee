@@ -1,26 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System;
-
-namespace SystemeDeQuete
+﻿namespace SystemeDeQueteAvalonia
 {
-    class Combat(
-        string titre,
-        string description,
-        Importance importance,
-        Evenement evenement,
-        string ennemies
-        ) : Quete(titre, description, importance, evenement), IPerteDOr
+    class Combat : Quete, IPerteDOr
     {
-        public string ObtenirEnnemies()
-        {
-            return ennemies;
-        }
+        #region Constructeur
+        public Combat(
+            string titre,
+            string description,
+            Importance importance,
+            Evenement evenement
+        ) : base(titre, description, importance, evenement) { }
+        #endregion
 
+        #region Méthodes
         public override void VerifierCompletion(Personnage personnage)
         {
             int valeur = _rand.Next(0, 101);
@@ -32,10 +23,6 @@ namespace SystemeDeQuete
                 VolDOr(personnage);
             }
         }
-        public void ModifierEnnemies(string nouveauxEnnemies)
-        {
-            ennemies = nouveauxEnnemies;
-        }
 
         public void VolDOr(Personnage personnage)
         {
@@ -46,5 +33,6 @@ namespace SystemeDeQuete
             }
             personnage.AjouterEnleverOr(-50);
         }
+        #endregion
     }
 }

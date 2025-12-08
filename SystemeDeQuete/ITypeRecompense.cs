@@ -1,4 +1,4 @@
 public interface ITypeRecompense
 {
-    void AppliquerRecompense();
+    int AppliquerRecompense();
 }

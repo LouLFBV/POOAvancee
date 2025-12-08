@@ -1,4 +1,7 @@
-public interface ITypeRecompense
+namespace SystemeDeQueteAvalonia
 {
-    void AppliquerRecompense();
+    public interface ITypeRecompense
+    {
+        int AppliquerRecompense();
+    }
 }

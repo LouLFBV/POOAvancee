@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SystemeDeQuete
+namespace SystemeDeQueteAvalonia
 {
     public class Personnage
     {
+        #region Champs
         private int _xpJoueur;
         private int _orJoueur;
         private List<Quete> _listeDeQuete;
         private List<Recompense> _listeDeRecompense;
+        #endregion
 
+        #region Constructeur
         public Personnage()
         {
             _xpJoueur = 0;
@@ -20,6 +20,7 @@ namespace SystemeDeQuete
             _listeDeQuete = new List<Quete>();
             _listeDeRecompense = new List<Recompense>();
         }
+        #endregion
 
         #region Méthodes Obtenir
 
@@ -56,11 +57,6 @@ namespace SystemeDeQuete
         {
             _listeDeQuete.Add(quete);
         }
-
-        public void EnleverQuete(Quete quete)
-        {
-            _listeDeQuete.Remove(quete);
-        }
         public void AjouterRecompense(Recompense recompense)
         {
             _listeDeRecompense.Add(recompense);
@@ -72,13 +68,13 @@ namespace SystemeDeQuete
             {
                 if (recompense.ObtenirNom() == TypeRecompense.Xp)
                 {
-                    AjouterEnleverXp(recompense.ObtenirQuantite());
+                    AjouterEnleverXp(recompense.AppliquerRecompense());
                     continue;
                 }
 
                 if (recompense.ObtenirNom() == TypeRecompense.Or)
                 {
-                    AjouterEnleverOr(recompense.ObtenirQuantite());
+                    AjouterEnleverOr(recompense.AppliquerRecompense());
                     continue;
                 }
 
@@ -88,7 +84,7 @@ namespace SystemeDeQuete
                 if (existante != null)
                 {
                     existante.ModifierQuantite(
-                        existante.ObtenirQuantite() + recompense.ObtenirQuantite());
+                        existante.ObtenirQuantite() + recompense.AppliquerRecompense());
                 }
                 else
                 {
@@ -97,36 +93,9 @@ namespace SystemeDeQuete
             }
         }
 
-
-        public void EnleverRecompense(Recompense recompense)
-        {
-            _listeDeRecompense.Remove(recompense);
-        }
-
-
         #endregion
 
-        #region Méthodes Modifier
-
-        public void ModifierXp(int xp)
-        {
-            _xpJoueur = xp;
-        }
-        public void ModifierOr(int or)
-        {
-            _orJoueur = or;
-        }
-        public void ModifierQuete(List<Quete> quete)
-        {
-            _listeDeQuete = quete;
-        }
-        public void ModifierRecompense(List<Recompense> recompense)
-        {
-            _listeDeRecompense = recompense;
-        }
-
-        #endregion
-
+        #region Méthode Réinitialiser
         public void ReinitialiserPersonnage()
         {
             _xpJoueur = 0;
@@ -134,5 +103,6 @@ namespace SystemeDeQuete
             _listeDeQuete = new List<Quete>();
             _listeDeRecompense = new List<Recompense>(); ;
         }
+        #endregion
     }
 }

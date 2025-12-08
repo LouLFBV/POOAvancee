@@ -1,46 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-public abstract class Recompense : ITypeRecompense
+﻿namespace SystemeDeQueteAvalonia
 {
-    protected TypeRecompense _nom;
-    protected int _quantite;
-
-    public Recompense(TypeRecompense nom, int quantite)
+    public abstract class Recompense : ITypeRecompense
     {
-        _nom = nom;
-        _quantite = quantite;
+        #region Champs
+        protected TypeRecompense _nom;
+        protected int _quantite;
+        #endregion
+
+        #region Constructeur
+        public Recompense(TypeRecompense nom, int quantite)
+        {
+            _nom = nom;
+            _quantite = quantite;
+        }
+        #endregion
+
+        #region Méthodes Obtenir
+        public TypeRecompense ObtenirNom()
+        {
+            return _nom;
+        }
+        public int ObtenirQuantite()
+        {
+            return _quantite;
+        }
+        #endregion
+
+        #region Méthode Modifier
+        public void ModifierQuantite(int quantite)
+        {
+            _quantite = quantite;
+        }
+        #endregion
+
+        #region Méthode Appliquer Abstraite
+        public abstract int AppliquerRecompense();
+        #endregion
     }
 
-    public void AfficherDetails()
+    public enum TypeRecompense
     {
-        Console.WriteLine($"- {_nom}, Quantité: {_quantite}");
+        Banane,
+        Pomme,
+        Or,
+        Xp
     }
-    public TypeRecompense ObtenirNom()
-    {
-        return _nom;
-    }
-    public int ObtenirQuantite()
-    {
-        return _quantite;
-    }
-
-    public void ModifierQuantite(int quantite)
-    {
-        _quantite = quantite;
-    }
-
-
-    public abstract void AppliquerRecompense();
-}
-
-public enum TypeRecompense
-{
-    Banane,
-    Pomme,
-    Or,
-    Xp
 }

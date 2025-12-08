@@ -93,7 +93,7 @@ namespace SystemeDeQuete
                     index >= 1 && index <= choix.Count)
                 {
                     Quete q = choix[index - 1];
-                    q.VerifierCompletion();
+                    q.VerifierCompletion(_personnage);
 
                     // ⚔️ BOSS FINAL
 

@@ -1,14 +1,20 @@
 using System;
-namespace SystemeDeQuete
+
+namespace SystemeDeQueteAvalonia
 {
     public class Or : Recompense
     {
+        #region Constructeur
         public Or(TypeRecompense nom, int quantite) : base(nom, quantite) { }
+        #endregion
 
-        public override void AppliquerRecompense()
+        #region Méthodes Appliquer
+        public override int AppliquerRecompense()
         {
-            Console.WriteLine($"Le joueur reçoit {_quantite} Or !");
+            Console.WriteLine($"Le joueur reçoit {_quantite} pièce(s) d'or !");
+            return _quantite;
         }
+        #endregion
     }
 }
     

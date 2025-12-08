@@ -2,6 +2,6 @@
 {
     public interface IPerteDOr
     {
-        void VolDOr(int montant);
+        void VolDOr(Personnage personnage);
     }
 }

@@ -1,36 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SystemeDeQuete
+﻿namespace SystemeDeQueteAvalonia
 {
     class Exploration : Quete, IPerteDOr
     {
-        private string _lieuATrouver;
-
+        #region Constructeur
         public Exploration(
             string titre,
             string description,
             Importance importance,
-            Evenement evenement,
-            string lieuATrouver
-        ) : base(titre, description, importance, evenement)
-        {
-            _lieuATrouver = lieuATrouver;
-        }
+            Evenement evenement
+        ) : base(titre, description, importance, evenement){}
+        #endregion
 
-        public string ObtenirLieuATrouver()
-        {
-            return _lieuATrouver;
-        }
-
-        public void ModifierLieuATrouver(string nouveauLieu)
-        {
-            _lieuATrouver = nouveauLieu;
-        }
-
+        #region Méthodes
         public override void VerifierCompletion(Personnage personnage)
         {
             int valeur = _rand.Next(0, 101);
@@ -51,5 +32,6 @@ namespace SystemeDeQuete
             }
             personnage.AjouterEnleverOr(-30);
         }
+        #endregion
     }
 }
