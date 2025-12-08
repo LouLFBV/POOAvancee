@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SystemeDeQuete
+﻿namespace SystemeDeQuete
 {
-    interface IPerteDOr
+    public interface IPerteDOr
     {
-        void VolDOr(int montant);
+        void VolDOr(Personnage personnage);
     }
 }

@@ -4,17 +4,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SystemeDeQuete
+public abstract class Recompense : ITypeRecompense
 {
-    class Recompense
+    protected TypeRecompense _nom;
+    protected int _quantite;
+
+    public Recompense(TypeRecompense nom, int quantite)
     {
-        public void Test()
-        {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
-        }
+        _nom = nom;
+        _quantite = quantite;
     }
+
+    public void AfficherDetails()
+    {
+        Console.WriteLine($"- {_nom}, Quantité: {_quantite}");
+    }
+    public TypeRecompense ObtenirNom()
+    {
+        return _nom;
+    }
+    public int ObtenirQuantite()
+    {
+        return _quantite;
+    }
+
+    public void ModifierQuantite(int quantite)
+    {
+        _quantite = quantite;
+    }
+
+
+    public abstract int AppliquerRecompense();
+}
+
+public enum TypeRecompense
+{
+    Banane,
+    Pomme,
+    Or,
+    Xp
 }

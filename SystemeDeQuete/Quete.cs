@@ -6,15 +6,82 @@ using System.Threading.Tasks;
 
 namespace SystemeDeQuete
 {
-    class Quete
+    public abstract class Quete
     {
-        public void Test()
+        protected static readonly Random _rand = new Random();
+        private string _titre;
+        private string _description;
+        private Importance _importance;
+        protected Evenement _evenement;
+
+        protected Quete(string titre, string description, Importance importance, Evenement evenement)
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            _titre = titre;
+            _description = description;
+            _importance = importance;
+            _evenement = evenement;
         }
+        public string AfficherEtat()
+        {
+            return _evenement.ObtenirEtat() ? "complète" : "incomplète";
+        }
+
+        public void AfficherEvenement()
+        {
+            if(_evenement.ObtenirEtat())
+            {
+                Console.WriteLine("Événement déjà complété.");
+            }
+            else
+            {
+                Console.WriteLine("Événement en cours.");
+            }
+        }
+
+        public abstract void VerifierCompletion(Personnage personnage);
+        #region Méthodes Obtenir
+        public string ObtenirTitre()
+        {
+            return _titre;
+        }
+
+        public string ObtenirDescription()
+        {
+            return _description;
+        }
+
+        public Importance ObtenirImportance()
+        {
+            return _importance;
+        }
+
+        public Evenement ObtenirEvenement()
+        {
+            return _evenement;
+        }
+        #endregion
+
+        #region Méthodes Modifier
+        public void ModifierTitre(string title)
+        {
+            _titre = title;
+        }
+
+        public void ModifierDescription(string descrip)
+        {
+            _description = descrip;
+        }
+
+        public void ModifierImportance(Importance important)
+        {
+            _importance = important;
+        }
+        #endregion
+    }
+    public enum Importance
+    {
+        Principale,
+        Secondaire,
+        SousQuete
     }
 }

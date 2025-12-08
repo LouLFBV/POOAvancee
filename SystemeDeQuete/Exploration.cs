@@ -8,16 +8,49 @@ namespace SystemeDeQuete
 {
     class Exploration : Quete, IPerteDOr
     {
-        public void VolDOr(int montant)
+        private string _lieuATrouver;
+
+        public Exploration(
+            string titre,
+            string description,
+            Importance importance,
+            Evenement evenement,
+            string lieuATrouver
+        ) : base(titre, description, importance, evenement)
         {
+            _lieuATrouver = lieuATrouver;
         }
-        public void Test()
+
+        public string ObtenirLieuATrouver()
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            return _lieuATrouver;
+        }
+
+        public void ModifierLieuATrouver(string nouveauLieu)
+        {
+            _lieuATrouver = nouveauLieu;
+        }
+
+
+        public override void VerifierCompletion(Personnage personnage)
+        {
+            int valeur = _rand.Next(0, 101);
+            _evenement.ModifierEtat(valeur > 50);
+            int voleurDOrChance = _rand.Next(0, 101);
+            if (voleurDOrChance <= 50)
+            {
+                VolDOr(personnage);
+            }
+        }
+
+        public void VolDOr(Personnage personnage)
+        {
+            if (personnage.ObtenirOr() < 30)
+            {
+                personnage.AjouterEnleverOr(-personnage.ObtenirOr());
+                return;
+            }
+            personnage.AjouterEnleverOr(-30);
         }
     }
 }

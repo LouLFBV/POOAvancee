@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\banane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\banane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\systemedequeteavalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:systemedequeteavalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SystemeDeQueteAvalonia.csproj",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\SystemeDeQueteAvalonia.csproj",
+              "RelativeDocumentMoniker": "SystemeDeQueteAvalonia.csproj",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\SystemeDeQueteAvalonia.csproj",
+              "RelativeToolTip": "SystemeDeQueteAvalonia.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T10:29:54.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Evenement.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Evenement.cs",
+              "RelativeDocumentMoniker": "Recompenses\\Evenement.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Evenement.cs",
+              "RelativeToolTip": "Recompenses\\Evenement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:18:20.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITypeRecompense.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\ITypeRecompense.cs",
+              "RelativeDocumentMoniker": "Recompenses\\ITypeRecompense.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\ITypeRecompense.cs",
+              "RelativeToolTip": "Recompenses\\ITypeRecompense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:17:53.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Recompense.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Recompense.cs",
+              "RelativeDocumentMoniker": "Recompenses\\Recompense.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Recompense.cs",
+              "RelativeToolTip": "Recompenses\\Recompense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:14:20.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Exploration.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Exploration.cs",
+              "RelativeDocumentMoniker": "Quetes\\Exploration.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Exploration.cs",
+              "RelativeToolTip": "Quetes\\Exploration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:24:42.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Quete.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Quete.cs",
+              "RelativeDocumentMoniker": "Quetes\\Quete.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Quete.cs",
+              "RelativeToolTip": "Quetes\\Quete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:20:39.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPerteDOr.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\IPerteDOr.cs",
+              "RelativeDocumentMoniker": "Quetes\\IPerteDOr.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\IPerteDOr.cs",
+              "RelativeToolTip": "Quetes\\IPerteDOr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:19:25.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Combat.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Combat.cs",
+              "RelativeDocumentMoniker": "Quetes\\Combat.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Combat.cs",
+              "RelativeToolTip": "Quetes\\Combat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:14:49.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Collecte.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Collecte.cs",
+              "RelativeDocumentMoniker": "Quetes\\Collecte.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Collecte.cs",
+              "RelativeToolTip": "Quetes\\Collecte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T08:13:54.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Banane.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Banane.cs",
+              "RelativeDocumentMoniker": "Recompenses\\Banane.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Banane.cs",
+              "RelativeToolTip": "Recompenses\\Banane.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:42:54.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Xp.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Xp.cs",
+              "RelativeDocumentMoniker": "Recompenses\\Xp.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Xp.cs",
+              "RelativeToolTip": "Recompenses\\Xp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:42:48.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pomme.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Pomme.cs",
+              "RelativeDocumentMoniker": "Recompenses\\Pomme.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Pomme.cs",
+              "RelativeToolTip": "Recompenses\\Pomme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:42:43.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Personnage.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Personnage.cs",
+              "RelativeDocumentMoniker": "Personnage.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Personnage.cs",
+              "RelativeToolTip": "Personnage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:41:31.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Or.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Or.cs",
+              "RelativeDocumentMoniker": "Recompenses\\Or.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Or.cs",
+              "RelativeToolTip": "Recompenses\\Or.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:41:25.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MainWindow.axaml",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml",
+              "RelativeToolTip": "MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-07T14:13:39.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.axaml.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml.cs",
+              "RelativeToolTip": "MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T14:13:37.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

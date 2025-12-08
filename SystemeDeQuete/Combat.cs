@@ -4,20 +4,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System;
+
 namespace SystemeDeQuete
 {
-    class Combat : Quete, IPerteDOr
+    class Combat(
+        string titre,
+        string description,
+        Importance importance,
+        Evenement evenement,
+        string ennemies
+        ) : Quete(titre, description, importance, evenement), IPerteDOr
     {
-        public void VolDOr(int montant)
+        public string ObtenirEnnemies()
         {
+            return ennemies;
         }
-        public void Test()
+
+        public void ModifierEnnemies(string nouveauxEnnemies)
         {
-            Log.Info("Démarrage OK");
-            Log.Warn("Attention !");
-            Log.Error("Une erreur est survenue");
-            Console.WriteLine("Entrer un chiffre !");
-            var chiffre = Console.ReadLine();
+            ennemies = nouveauxEnnemies;
+        }
+        public override void VerifierCompletion(Personnage personnage)
+        {
+            int valeur = _rand.Next(0, 101);
+            _evenement.ModifierEtat(valeur > 40);
+
+            int voleurDOrChance = _rand.Next(0, 101);
+            if (voleurDOrChance < 30)
+            {
+                VolDOr(personnage);
+            }
+        }
+
+        public void VolDOr(Personnage personnage)
+        {
+            if (personnage.ObtenirOr() < 50)
+            {
+                personnage.AjouterEnleverOr(-personnage.ObtenirOr());
+                return;
+            }
+            personnage.AjouterEnleverOr(-50);
         }
     }
 }
