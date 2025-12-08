@@ -7,16 +7,32 @@
       "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\systemedequeteavalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:systemedequeteavalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\banane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,30 +43,6 @@
       "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\quete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\or.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\pomme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\ipertedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,12 +51,20 @@
       "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\exploration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\recompenses\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:recompenses\\recompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:ityperecompense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\quetes\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:quetes\\collecte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\systemedequeteavalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:systemedequeteavalonia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|c:\\ecole\\b2\\pooavanc\u00E9e\\systemedequeteavalonia\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{979C12F8-681A-48BA-B65D-6CA00034974E}|SystemeDeQueteAvalonia.csproj|solutionrelative:mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,97 +86,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SystemeDeQueteAvalonia",
+              "DocumentIndex": 14,
+              "Title": "SystemeDeQueteAvalonia.csproj",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\SystemeDeQueteAvalonia.csproj",
               "RelativeDocumentMoniker": "SystemeDeQueteAvalonia.csproj",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\SystemeDeQueteAvalonia.csproj",
               "RelativeToolTip": "SystemeDeQueteAvalonia.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-08T10:29:54.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T10:29:54.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Evenement.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Evenement.cs",
               "RelativeDocumentMoniker": "Recompenses\\Evenement.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Evenement.cs",
               "RelativeToolTip": "Recompenses\\Evenement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T09:18:20.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T09:18:20.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "ITypeRecompense.cs",
-              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\ITypeRecompense.cs",
-              "RelativeDocumentMoniker": "ITypeRecompense.cs",
-              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\ITypeRecompense.cs",
-              "RelativeToolTip": "ITypeRecompense.cs",
+              "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\ITypeRecompense.cs",
+              "RelativeDocumentMoniker": "Recompenses\\ITypeRecompense.cs",
+              "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\ITypeRecompense.cs",
+              "RelativeToolTip": "Recompenses\\ITypeRecompense.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T09:17:53.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "Recompense.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Recompense.cs",
               "RelativeDocumentMoniker": "Recompenses\\Recompense.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Recompense.cs",
               "RelativeToolTip": "Recompenses\\Recompense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T09:14:20.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T09:14:20.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Exploration.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Exploration.cs",
               "RelativeDocumentMoniker": "Quetes\\Exploration.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Exploration.cs",
               "RelativeToolTip": "Quetes\\Exploration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T08:24:42.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:24:42.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Quete.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Quete.cs",
               "RelativeDocumentMoniker": "Quetes\\Quete.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Quete.cs",
               "RelativeToolTip": "Quetes\\Quete.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T08:20:39.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:20:39.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "IPerteDOr.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\IPerteDOr.cs",
               "RelativeDocumentMoniker": "Quetes\\IPerteDOr.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\IPerteDOr.cs",
               "RelativeToolTip": "Quetes\\IPerteDOr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T08:19:25.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:19:25.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Combat.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Combat.cs",
               "RelativeDocumentMoniker": "Quetes\\Combat.cs",
@@ -184,25 +178,23 @@
               "RelativeToolTip": "Quetes\\Combat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T08:14:49.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:14:49.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Collecte.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Collecte.cs",
               "RelativeDocumentMoniker": "Quetes\\Collecte.cs",
               "ToolTip": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Quetes\\Collecte.cs",
               "RelativeToolTip": "Quetes\\Collecte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T08:13:54.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:13:54.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Banane.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Banane.cs",
               "RelativeDocumentMoniker": "Recompenses\\Banane.cs",
@@ -210,12 +202,11 @@
               "RelativeToolTip": "Recompenses\\Banane.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:42:54.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T14:42:54.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Xp.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Xp.cs",
               "RelativeDocumentMoniker": "Recompenses\\Xp.cs",
@@ -223,12 +214,11 @@
               "RelativeToolTip": "Recompenses\\Xp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:42:48.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T14:42:48.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Pomme.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Pomme.cs",
               "RelativeDocumentMoniker": "Recompenses\\Pomme.cs",
@@ -236,8 +226,7 @@
               "RelativeToolTip": "Recompenses\\Pomme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:42:43.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T14:42:43.302Z"
             },
             {
               "$type": "Document",
@@ -254,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Or.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\Recompenses\\Or.cs",
               "RelativeDocumentMoniker": "Recompenses\\Or.cs",
@@ -262,12 +251,11 @@
               "RelativeToolTip": "Recompenses\\Or.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:41:25.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T14:41:25.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml",
               "RelativeDocumentMoniker": "MainWindow.axaml",
@@ -275,12 +263,11 @@
               "RelativeToolTip": "MainWindow.axaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-07T14:13:39.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T14:13:39.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\ecole\\B2\\POOAvanc\u00E9e\\SystemeDeQueteAvalonia\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "MainWindow.axaml.cs",
@@ -288,8 +275,7 @@
               "RelativeToolTip": "MainWindow.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:13:37.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T14:13:37.297Z"
             }
           ]
         }

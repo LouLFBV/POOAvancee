@@ -52,23 +52,6 @@ namespace SystemeDeQueteAvalonia.Quetes
         }
         #endregion
 
-        #region Méthodes Modifier
-        public void ModifierTitre(string title)
-        {
-            _titre = title;
-        }
-
-        public void ModifierDescription(string descrip)
-        {
-            _description = descrip;
-        }
-
-        public void ModifierImportance(Importance important)
-        {
-            _importance = important;
-        }
-        #endregion
-
         #region Méthode Abstraite
         public abstract void VerifierCompletion(Personnage personnage);
         #endregion
